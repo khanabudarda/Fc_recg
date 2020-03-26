@@ -1,0 +1,11 @@
+{% extends "Layout.html" %}
+{% block body %}
+<H1>Home Page</H1>
+<h3>
+    Upload The Picture to Mark Attendance.
+</h3>
+<form action="/markAttendance">
+    File: <input type="file" name="Picture">
+    <input type="submit" name="Mark" value="Mark Attendance">
+</form>
+{% endblock body %}
